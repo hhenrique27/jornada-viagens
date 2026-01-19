@@ -34,3 +34,25 @@ nav {
     font-weight: var(--menu-text-weight);
 }
 
+@media (min-width: 768px) {
+    .main-header {
+        padding-left: 6rem;
+    }
+
+    .navigation-menu label {
+        display: none;
+    }
+
+    .navigation-menu nav {
+        display: block;
+    }
+
+    .list-menu {
+        display: flex;
+        column-gap: 4rem;
+    }
+
+    .list-menu li {
+        margin: 0;
+    }
+}
