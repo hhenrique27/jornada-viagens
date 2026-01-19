@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -18,4 +23,8 @@ img, picture, video, canvas, svg {
 
 input, button, textarea, select {
   font: inherit;
+}
+
+ol, ul {
+  list-style: none;
 }
