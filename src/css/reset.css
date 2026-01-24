@@ -10,7 +10,6 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -27,4 +26,9 @@ input, button, textarea, select {
 
 ol, ul {
   list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
