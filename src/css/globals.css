@@ -3,6 +3,10 @@ body {
     color: var(--text-primary-color);
 }
 
+.offers {
+    margin-bottom: 8.8rem;
+}
+
 .section-title {
     text-align: center;
 }
