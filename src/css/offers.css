@@ -49,3 +49,39 @@
     font-weight: var(--title-weight);
     display: inline-block;
 }
+
+@media (min-width: 768px) {
+    .offers-cards {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+}
+
+@media (min-width: 1024px) {
+    .card {
+    width: 42rem;
+    height: 30.8rem;
+}
+
+.card h3 {
+    font-size: 4.8rem;
+}
+
+.card span {
+    font-size: 4.0rem;
+}
+}
+
+@media (min-width: 1440px) {
+    .card {
+    width: 58.8rem;
+}
+}
+
+@media (min-width: 1920px) {
+    .offers-cards {
+    width: 120rem;
+    margin: 0 auto;
+}
+}
