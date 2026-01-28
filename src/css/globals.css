@@ -8,19 +8,20 @@ body {
 }
 
 .section-title {
-    text-align: center;
+    width: 28rem;
+    margin: 0 auto 3.2rem;
 }
 
 .section-title h2 {
     font-size: 2.8rem;
     font-weight: var(--title-weight);
+    text-align: center;
 }
 
 .section-title hr {
     background-color: var(--secondary-color);
     width: 18rem;
     height: 0.4rem;
-    display: inline-block;
     border: none;
     margin: 1.6rem auto 3.2rem;
 }
@@ -38,6 +39,10 @@ body {
     transition: 0.3s;
 }
 @media (min-width: 768px) {
+    .section-title {
+    width: 100%;
+  }
+
     .section-title h2 {
     font-size: 3.2rem;
 }
