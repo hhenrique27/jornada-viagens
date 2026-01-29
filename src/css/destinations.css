@@ -32,7 +32,7 @@
 
 .destinations-items .item p {
     font-size: 2rem;
-    height: ;
+    height: 22.4rem;
     font-weight: var(--text-weight);
     margin: 2.4rem 0 2.4rem;
 }
@@ -55,6 +55,10 @@
     width: 28rem;
 }
 
+.destinations-items .item p {
+    height: 12.8rem;
+}
+
 }
 
 @media (min-width: 1440px) {
@@ -71,9 +75,5 @@
 
 .img-item {
     width: 58.8rem;
-}
-
-.destinations-items .item p {
-    height: 12.8rem;
 }
 }
