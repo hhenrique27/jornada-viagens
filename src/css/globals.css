@@ -7,6 +7,10 @@ body {
     margin-bottom: 8.8rem;
 }
 
+.categories {
+    margin-bottom: 8.8rem;
+}
+
 .section-title {
     width: 28rem;
     margin: 0 auto 3.2rem;
@@ -37,6 +41,7 @@ body {
     line-height: 6.4rem;
     border-radius: 0.8rem;
     transition: 0.3s;
+    text-align: center;
 }
 @media (min-width: 768px) {
     .section-title {

@@ -1,0 +1,41 @@
+.destinations-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.destinations-items .item {
+    width: 31.2rem;
+}
+
+.img-item {
+    width: 31.2rem;
+    height: 36rem;
+    margin-bottom: 2.4rem;
+}
+
+.tokyo .img-item {
+    background: url(../image/tokyo-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.osaka .img-item {
+    background: url(../image/osaka-mobile.jpg) no-repeat;
+    background-size: cover;
+}
+
+.destinations-items .item h3 {
+    font-size: 2.8rem;
+    font-weight: var(--title-weight);
+}
+
+.destinations-items .item p {
+    font-size: 2rem;
+    font-weight: var(--text-weight);
+    margin: 2.4rem 0 2.4rem;
+}
+
+.destinations-items .item .button {
+    width: 31.2rem;
+}
