@@ -3,12 +3,14 @@ body {
     color: var(--text-primary-color);
 }
 
-.offers {
-    margin-bottom: 8.8rem;
+section {
+    width: 31.2rem;
+    margin: 0 auto 8.8rem;
 }
 
-.categories {
-    margin-bottom: 8.8rem;
+section.hero {
+    width: 100%;
+    margin: 0;
 }
 
 .section-title {
@@ -43,7 +45,12 @@ body {
     transition: 0.3s;
     text-align: center;
 }
+
 @media (min-width: 768px) {
+    section {
+    width: 64.8rem;
+}
+    
     .section-title {
     width: 100%;
   }
@@ -54,11 +61,21 @@ body {
 }
 
 @media (min-width: 1024px) {
+    section {
+    width: 90rem;
+}
+
     .section-title hr {
     margin-bottom: 6.4rem;
 }
 
 .button:hover {
     background-color: var(--primary-color);
+}
+}
+
+@media (min-width: 1440px) {
+    section {
+    width: 120rem;
 }
 }
