@@ -1,0 +1,35 @@
+.main-footer {
+    background-color: var(--background-tertiary-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3.2rem 2.4rem;
+}
+
+.main-footer p {
+    font-size: 1.6rem;
+    line-height: 2.8rem;
+    color: var(--text-secondary-color);
+}
+
+.main-footer a {
+    display: inline-block;
+}
+
+.footer-content {
+    text-align: center;
+    width: 31.2rem;
+}
+
+.footer-content p {
+    margin: 1.6rem 0 0.8rem;
+}
+
+.footer-social {
+    text-align: center;
+}
+
+.footer-social a {
+    margin-top: 1.6rem;
+}
