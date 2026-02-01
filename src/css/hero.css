@@ -26,6 +26,11 @@
     height: 62rem;
 }
 
+    .bottom-hero .hero-image {
+    background: url(../image/bg-bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
+}
+
     .hero-subtitle {
     font-size: 3.2rem;
     padding: 8.8rem 6rem;
@@ -38,9 +43,23 @@
     background-size: cover;
 }
 
+    .bottom-hero .hero-image {
+    background: url(../image/bg-bottom-hero-desktop.png) no-repeat;
+    background-size: cover;
+    height: 42.7rem;
+    }
+
     .hero-subtitle {
     padding: 10.4rem 12rem;
 }
+}
+
+@media (min-width: 1440px) {
+    .bottom-hero .hero-image {
+    background: url(../image/bg-bottom-hero-desktop.png) no-repeat;
+    background-size: cover;
+    height: 60rem;
+    }
 }
 
 @media (min-width: 1920px) {
